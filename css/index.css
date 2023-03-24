@@ -1,0 +1,208 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #212529;
+}
+
+.container-fluid img {
+  height: 40px;
+}
+
+.carousel {
+  max-width: 790px;
+}
+
+.r {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  position: absolute;
+  color: white;
+  bottom: 10px;
+  padding-bottom: 21px;
+  left: 10px;
+}
+
+.carousel-indicators [data-bs-target] {
+  border: 0;
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+  opacity: 0.5;
+  margin-right: 10px;
+}
+
+.carousel-indicators .active {
+  height: 10px;
+  width: 10px;
+  opacity: 1;
+}
+
+.katalog {
+  background: #004DFF;
+  border: #004DFF solid 1px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  margin-top: 3px;
+  height: 37px;
+}
+
+.navbar-toggler-icon {
+  background-image: url(arrow_back.png);
+}
+
+.card iframe {
+  max-width: 790px;
+}
+
+.card {
+  align-items: center;
+}
+
+a {
+  z-index: 1;
+}
+
+.navbar-toggler {
+  position: absolute;
+  left: 10px;
+  border: 0;
+  z-index: 1;
+}
+
+.film {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+  min-width: 514px;
+  margin-right: 10px;
+}
+
+.figure-img {
+  max-height: 250px;
+  max-width: 1000px;
+}
+
+.f {
+  display: flex;
+  justify-content: space-around;
+}
+
+.figure {
+  margin-right: 10px;
+}
+
+.films {
+  overflow-x: auto;
+}
+
+figure button {
+  height: 248px;
+  border: 0;
+  padding: 0;
+  border-radius: 8px;
+}
+
+.mb-md-0 {
+  color: white;
+}
+
+footer {
+  margin-top: 10px;
+}
+
+li {
+  margin-right: 10px;
+}
+
+.col-md-4 span {
+  margin-left: 10px;
+}
+
+.date {
+  display: flex;
+}
+
+button {
+  border: 0;
+}
+
+.film_main {
+  color: white;
+  margin: 10px 0 0 10px;
+  text-align: center;
+}
+
+.time {
+  display: flex;
+}
+
+.time_check {
+  margin-left: 10px;
+  background: #212529;
+  color: #d52b1e;
+  border: 1px solid #d52b1e;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  transition: all .3s;
+}
+
+.places {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px auto;
+}
+
+.screen {
+  width: 180px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #aaa;
+  font-weight: 700;
+  margin: 20px auto;
+}
+
+.buy {
+  background: #004DFF;
+  border: #004DFF solid 1px;
+  border-radius: 30px;
+}
+
+.place {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+}
+
+.btn-dange {
+  border: 1px solid #d52b1e;
+  background: #d52b1e;
+  color: white;
+  transition: all .5s;
+}
+
+.btn-dange:active {
+  border: 1px solid red;
+  background: red;
+}
+
+form {
+  max-width: 790px;
+  text-align: center;
+  margin: auto;
+}
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

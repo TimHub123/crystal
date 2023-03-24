@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Кинотеатр Кристалл</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"
+    defer></script>
+    <script src="js/particles.min.js"></script>
+  <script src="js/index.js" defer></script>
+</head>
+
+<body>
+  <div id="particles-js"></div>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid" style="justify-content: center;">
+        <img src="assets/crystal.png" alt="">
+        <a class="navbar-brand" href="#">КРИСТАЛЛ</a>
+        <a class="cart">О нас</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="r animate__animated animate__backInDown">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators"
+          style="margin-bottom: 10px; margin-left: 10px; justify-content: flex-start; align-items: center;">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/1920x.webp" class="d-block w-100" alt="...">
+            <div class="text d-md-block">
+              <h4>Чебурашка</h4>
+              <button type="button" class="btn btn-primary katalog">Купить билет</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/mira.jpg" class="d-block w-100" alt="...">
+            <div class="text d-md-block">
+              <h4>Мира</h4>
+              <button type="button" class="btn btn-primary katalog">Купить билет</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/bad.jpg" class="d-block w-100" alt="...">
+            <div class="text d-md-block">
+              <h4>Непослушник 2</h4>
+              <button type="button" class="btn btn-primary katalog">Купить билет</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/old.jpg" class="d-block w-100" alt="...">
+            <div class="text d-md-block">
+              <h4>Бывшие. Happy end</h4>
+              <button type="button" class="btn btn-primary katalog">Купить билет</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/horror.jpg" class="d-block w-100" alt="...">
+            <div class="text d-md-block">
+              <h4>Астрал: Потомство</h4>
+              <button type="button" class="btn btn-primary katalog">Купить билет</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h6 class="film_main">Фильмы в прокате</h6>
+    <div class="f animate__animated animate__backInLeft">
+      <div class="films">
+        <div class="film">
+          <figure class="figure">
+            <button>
+              <img src="assets/cruella.jpg" class="go figure-img img-fluid rounded" alt="...">
+            </button>
+            <h5 style="color: white; margin-bottom: 3px; margin-top: 3px;" class="figure-caption">Круэлла</h5>
+            <h6 style="color: #77767D;" class="figure-caption">Комедия</h6>
+          </figure>
+          <figure class="figure">
+            <button>
+              <img src="assets/grinch.jpg" class="go figure-img img-fluid rounded" alt="...">
+            </button>
+            <h5 style="color: white;  margin-bottom: 3px; margin-top: 3px;" class="figure-caption">Гринч</h5>
+            <h6 style="color: #77767D;" class="figure-caption">Комедия</h6>
+          </figure>
+          <figure class="figure">
+            <button>
+              <img src="assets/spirit.jpg" class="go figure-img img-fluid rounded" alt="...">
+            </button>
+            <h5 style="color: white;  margin-bottom: 3px; margin-top: 3px;" class="figure-caption">Спирит Непокорный
+            </h5>
+            <h6 style="color: #77767D;" class="figure-caption">Мультфильм</h6>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="py-3 d-flex flex-wrap justify-content-between align-items-center border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-md-0 text-muted text-decoration-none lh-1">
+        <img style="width: 38px;" src="assets/crystal.png" alt="">
+      </a>
+      <span class="mb-md-0">&copy; 2023 Crystal</span>
+    </div>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li><a class="text-muted" href="https://vk.com/kinomarks" target="_blank"><img style="width: 32px;"
+            src="assets/vk.png" alt=""></a></li>
+      <li><a class="text-muted"
+          href="https://invite.viber.com/?g2=AQAMcRktDu0z6k1f1WaftZ%2FDwvzCryDgA3e0oGgdbe%2B6m1pWSo09RTGW%2ByjecjtE&lang=ru"
+          target="_blank"><img style="width: 32px;" src="assets/viber.png" alt=""></a></li>
+      <li><a class="text-muted" href="https://www.instagram.com/kristallcinema/" target="_blank"><img
+            style="width: 32px;" src="assets/instagram.png" alt=""></a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>
